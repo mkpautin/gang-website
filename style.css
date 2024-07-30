@@ -15,23 +15,25 @@ header {
     display: flex;
     padding: 100px 200px;
     background-color: #1f2937;
-    gap: 24px;
 }
 
 .hero .main {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin-bottom: 8px;
 }
 
 .hero .secondary, a {
     color: #e5e7eb;
     font-size: 18px;
+    margin-bottom: 8px;
 }
 
 .gang-pic {
     width: 50%;
     height: auto;
+    margin-left: 60px;
 }
 
 .info {
