@@ -101,6 +101,31 @@ a, .hero .secondary {
     color: #1f2937;
 }
 
+.call-to-action {
+    margin: 50px 200px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to-action .text .title{
+    font-size: 24px;
+    font-weight: bold;
+    color:#f9faf8;
+}
+
+.call-to-action .text .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-to-action button {
+    border: 3px solid #f9faf8;
+}
+
 ul {
     display: flex;
     padding: 0;
