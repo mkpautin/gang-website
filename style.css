@@ -2,6 +2,8 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
+
 }
 
 header {
@@ -9,6 +11,12 @@ header {
     justify-content: space-between;
     padding: 16px 200px;
     background-color: #1f2937;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -51,8 +59,10 @@ header {
 }
 
 .members {
+    width: 100%;
     display: flex;
-    gap: 24px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .member {
@@ -65,6 +75,24 @@ header {
     border-style: solid;
     border-width: 5px;
     border-color: #3882f6;
+}
+
+.quote {
+    padding: 100px 200px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 ul {
