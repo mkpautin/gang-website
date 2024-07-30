@@ -26,6 +26,11 @@ header {
     background-color: #1f2937;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .hero .main {
     font-size: 48px;
     font-weight: 800;
@@ -33,15 +38,10 @@ header {
     margin-bottom: 8px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
-
 a, .hero .secondary {
     color: #e5e7eb;
     font-size: 18px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .gang-pic {
@@ -114,8 +114,11 @@ a {
 }
 
 button {
-    border-radius: 15px;
+    border-radius: 6px;
     background-color: #3882f6;
-    padding: 8px 16px;
+    padding: 8px 24px;
     color: #f9faf8;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
 }
