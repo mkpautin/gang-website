@@ -67,10 +67,12 @@ a, .hero .secondary {
 .members {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .member {
+    width: 200px;
     text-align: center;
 }
 
